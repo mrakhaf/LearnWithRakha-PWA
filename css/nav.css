@@ -1,0 +1,17 @@
+.brand-logo {
+  /* background-color: blue; */
+  width: 35%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 950px) {
+  #brand-logo {
+    font-size: 20px;
+  }
+}
+
+.topnav {
+  /* background-color: cadetblue; */
+  margin-right: 7%;
+}

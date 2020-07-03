@@ -1,0 +1,117 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading {
+  font-size: 30px;
+  margin: 30px;
+  margin-bottom: -10px;
+  letter-spacing: 3px;
+}
+
+/* home.css */
+.home,
+.about {
+  display: flex;
+  width: 100%;
+}
+
+.identity,
+.about-content {
+  background-color: lavender;
+  width: 50%;
+  text-align: center;
+  padding: 9%;
+  padding-top: 13%;
+
+}
+
+.identity p,
+.about-content p {
+  margin-bottom: 2%;
+  font-size: 25px;
+}
+
+.identity-img,
+.about-img {
+  background-color: papayawhip;
+  text-align: center;
+  width: 50%;
+}
+
+.identity-img img,
+.about-img img {
+  width: 83%;
+  margin-bottom: -3.5px;
+}
+
+.btn1 {
+  margin-top: 30px;
+  width: 180px;
+  border-radius: 12px;
+  font-size: 15px;
+
+}
+
+@media screen and (max-width: 950px) {
+
+  .home,
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .identity,
+  .about-content {
+    padding: 20px;
+  }
+
+  .identity,
+  .identity-img,
+  .about-content,
+  .about-img {
+    width: 100%;
+  }
+
+  .identity-img img,
+  .about-img img {
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .heading {
+    font-size: 4vw;
+  }
+}
+
+/* aboutCss */
+.about-content {
+  text-align: justify;
+  text-indent: 50px;
+  padding-top: 7%;
+}
+
+/* portfolioCss */
+.card-image {
+  width: 100%;
+}
+
+/* joincss */
+.form {
+  width: 80%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+.btn2 {
+  width: 70%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.card-content {
+  text-indent: 5px;
+  text-align: justify;
+}
